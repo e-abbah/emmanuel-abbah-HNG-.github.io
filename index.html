@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <article data-testid = "test-profile-card">
+        <header>
+            <h2 data-testid="test-user-name" aria-label="Emmanuel Abbah">Emmanuel Abbah</h2>
+            <p data-testid="test-user-bio">Frontend Developer </p>
+            <p data-testid="test-user-time"></p>
+        </header>
+            <figure data-testid="test-user-avatar">
+                <img  src="https://media.licdn.com/dms/image/v2/D4D03AQFXUgGC54M0vg/profile-displayphoto-scale_200_200/B4DZnM6TGYJcAY-/0/1760079461671?e=1762387200&v=beta&t=LsBvXgj3BOsq6UcQ2Vw8fs0vwJsW-yKhqeQ1uZ2g1rE" alt="User Avatar">
+                <figcaption>User Avatar</figcaption>
+            </figure>
+            <nav data-testid="test-user-social-links">
+                <ul>
+                    <li><a href="https://twitter.com/emmanuelabbah" data-testid="test-user-social-twitter" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                    <li><a href="https://github.com/emmanuelabbah" data-testid="test-user-social-github" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                </ul>
+            </nav>
+            <section>
+                <ul data-testid="test-user-hobbies">
+                    <li >Exploring Places</li>
+                    <li >Listening to Music</li>
+                    <li >Spending time with family and friends</li>
+                </ul>
+            </section>
+            <section>
+                <ul data-testid="test-user-dislikes">
+                    <li >Disrespectful Behavior</li>
+                    <li >Tardiness</li>
+                    <li >Procrastination</li>
+                </ul>
+            </section>
+        
+    </article>
+</body>
+</html>
