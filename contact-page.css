@@ -1,0 +1,69 @@
+/* === Base Styles === */
+div {
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px auto; /* centers horizontally */
+    background-color: #f9f9f9;
+    width: 90%; /* takes up 90% of the screen width on small screens */
+    max-width: 350px; /* limits how wide it gets */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* === Button Styles === */
+.submit-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* === Input & Textarea Styles === */
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+/* === Tablet Screens (768px and above) === */
+@media (min-width: 768px) {
+    div {
+        max-width: 400px;
+        padding: 30px;
+    }
+    .submit-button {
+        width: 120px;
+        font-size: 17px;
+    }
+}
+
+/* === Desktop Screens (992px and above) === */
+@media (min-width: 992px) {
+    div {
+        max-width: 500px;
+        padding: 40px;
+    }
+    .submit-button {
+        width: 150px;
+        font-size: 18px;
+    }
+}
